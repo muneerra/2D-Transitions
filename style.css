@@ -1,14 +1,22 @@
 body {
     background-color: #f8eeee;
-    /* display: flex; */
     margin: 10px 10px;
     font-family: 'Jost', sans-serif;
-    
+}
+section h3 {
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px dashed #eb4559;
+    padding-bottom: 5px;
+}
+main {
+    display: flex;
+    justify-content: center;
 }
 div{
-    margin: 28px 10px;
+    margin: 10px;
     background-color: #eb4559;
-    border: #f78259;
+    border: 2px solid #ffeb99;
     border-radius: 8px;
     width: 80px;
     height: 50px;
@@ -19,7 +27,7 @@ div{
     padding: 15px;  
 }
 .grow:hover {
-    margin: 28px 10px;
+    margin: 10px;
     background-color: #eb4559;
     border: #f78259;
     border-radius: 8px;
@@ -32,7 +40,7 @@ div{
     transition: 0.5s;
 }
 .shrink:hover {
-margin: 28px 10px;
+    margin: 10px;
     background-color: #eb4559;
     border: #f78259;
     border-radius: 8px;
@@ -45,7 +53,7 @@ margin: 28px 10px;
     transition-duration: 2s;
 }
 .rotate:hover {
-    margin: 28px 10px;
+    margin: 10px;
     background-color: #eb4559;
     border: #f78259;
     border-radius: 8px;
@@ -60,7 +68,7 @@ margin: 28px 10px;
     transform: rotate(1080deg);
 }
 .fadeout:hover {
-    margin: 28px 10px;
+    margin: 10px;
     background: none;
     border: #f78259;
     border-radius: 8px;
